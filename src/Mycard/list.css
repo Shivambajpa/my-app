@@ -1,0 +1,53 @@
+.product-crousel {
+
+   position: relative;
+   padding: 26px;
+
+}
+
+.product-container{
+padding:  0 10px;
+display: flex;
+overflow-y: hidden;
+scroll-behavior: smooth;
+}
+
+
+.botta,.zippa{
+
+   border: none;
+   display: flex;
+   position: absolute;
+      height:100% ;
+   width: 60px;
+   top: 0;
+   justify-content: center;
+   align-items: center;
+   background-color: aqua;
+}
+
+.zippa{
+   right: 0;
+
+}
+.botta{
+   left: 0;
+}
+
+
+.zippa p,.botta p {
+
+   font-size: 20px;
+   background-color: cornflowerblue;
+   border-radius: 10px;
+   box-shadow: 0px, 0px ,1px ,10px , black;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer
+   ;
+   color: blueviolet;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+}

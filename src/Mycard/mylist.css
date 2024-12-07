@@ -1,0 +1,16 @@
+.Mylist{
+min-width: 400px;
+    height: 500px;
+    justify-content: center;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    border: 5px solid grey;
+    background-color: #2f4f4f;
+    color: lightseagreen;
+    margin: 40px;
+
+    padding: 10px;
+
+}
